@@ -1,4 +1,5 @@
 <?php
+require_once "./.env.php";
   class dbModel{
     protected $con = "";
     public function __construct(){
